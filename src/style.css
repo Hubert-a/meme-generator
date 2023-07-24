@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 20px;
+    align-items: center;
+    color: wheat;
+    
+}
+
+.nav--image{
+    height: 100%;
+    margin-right: 6px;
+}
+
+.nav--title{
+    font-size: 20px;
+    margin-right: auto;
+}
+.nav--project{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+main{
+    padding: 50px;
+}
+.form{
+    display: grid;
+    grid-template: 40px 40px/1fr 1fr;
+    gap: 17px;
+}
+.form--input{
+    border-radius: 5px; 
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+.form--button{
+    border-radius: 5px; 
+    grid-column: 1/-1;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: wheat;
+    border: none;
+    cursor: pointer;
+}
+.form--button:hover{
+    background: linear-gradient(90.41deg, #16071b 1.14%, #c266e0 100%);
+}
+.meme--image{
+    max-width: 100%;
+    margin-top: 20px;
+}
+.meme{
+    position: relative;
+}
+.meme--text{
+    position: absolute;
+    color: white;
+}
+.top{
+    top:40px
+}
+.bottom{
+    bottom: 40px;
+}
